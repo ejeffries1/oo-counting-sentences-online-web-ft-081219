@@ -28,7 +28,7 @@ class String
 
   def count_sentences
     #binding.pry
-    x = self.split("\\W+")
+    x = self.split("\\W+").count
     return x.count
   end
 end
